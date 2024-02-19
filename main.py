@@ -14,7 +14,7 @@ client = commands.Bot(
 @client.event
 async def on_connect():
   await client.change_presence(activity = discord.Streaming(name = 
-  "/help | sunflower  ", url = "https://twitch.tv/developer"))
+  "mb!help | musicbot.free.nf", url = "https://twitch.tv/developer"))
 
 
 
